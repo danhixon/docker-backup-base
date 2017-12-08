@@ -1,7 +1,7 @@
 docker-backup-base
 ==================
 
-Base Dockerfile for Using the Backup Gem inside a docker container. This base currently installs [mongodb tools](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-debian/), [postgres client tools](http://www.postgresql.org/docs/9.3/static/reference-client.html), [gnupg](http://www.gnupg.org), the [backup gem](http://meskyanichi.github.io/backup/v4/) and the [whenever gem](https://github.com/javan/whenever).
+Base Dockerfile for Using the Backup Gem inside a docker container. This base currently installs [mongodb tools](http://docs.mongodb.org/manual/tutorial/install-mongodb-on-debian/), [postgres client tools](http://www.postgresql.org/docs/9.3/static/reference-client.html), [gnupg](http://www.gnupg.org), the [backup gem](http://backup.github.io/backup/v4/) and the [whenever gem](https://github.com/javan/whenever).
 
 Use this as your base image, then `ADD` your Backup/config.rb, Backup/models/*, and your schedule.rb. Something like this:
 
